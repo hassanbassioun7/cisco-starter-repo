@@ -1,0 +1,20 @@
+.exhibit {
+    flex: 1 0 340px;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    box-shadow: 0.25em 0.25em 1em lightgray;
+    border-radius: 6px;
+  }
+  
+  .exhibit-name {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  .exhibit-content {
+    margin-top: 1em;
+    color: rgb(146, 146, 146);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
