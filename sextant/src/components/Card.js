@@ -1,14 +1,14 @@
 import './Card.css';
 
-function Exhibit({name, children}) {
+function Card({name, children}) {
   return (
-    <div className="exhibit">
-      <h2 className="exhibit-name">{name}</h2>
-      <div className="exhibit-content">
+    <div className="card">
+      <h2 className="card-name">{name}</h2>
+      <div className="card-content">
         {children}
       </div>
     </div>
   )
 }
 
-export default Exhibit
+export default Card
